@@ -1,11 +1,12 @@
 export default {
-  repository: 'https://github.com/shuding/nextra',
+  repository: 'https://github.com/yukebrillianth/UpVote',
+  docsRepository: 'https://github.com/yukebrillianth/nextjs-docs',
   titleSuffix: ' – UpVote',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
+      <span className="mr-2 font-extrabold hidden md:inline">UpVote</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-        The Next Site Builder
+        Aplikasi Pemilihan ketua Osis
       </span>
     </>
   ),
@@ -37,5 +38,5 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditOnGitHubLink: true,
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>
+  footerText: <>MIT {new Date().getFullYear()} © UpVote.</>
 }
